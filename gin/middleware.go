@@ -4,10 +4,10 @@ import (
 	"errors"
 
 	"github.com/gin-gonic/gin"
-	"github.com/velonetics/lura/v2/config"
+	"github.com/pucora/lura/v2/config"
 	secure "github.com/unrolled/secure"
 
-	httpsecure "github.com/velonetics/velonetics-httpsecure/v2"
+	httpsecure "github.com/pucora/velonetics-httpsecure/v2"
 )
 
 var ErrNoConfig = errors.New("no config present for the httpsecure module")

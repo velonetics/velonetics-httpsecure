@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/velonetics/lura/v2/config"
+	"github.com/pucora/lura/v2/config"
 
-	httpsecure "github.com/velonetics/velonetics-httpsecure/v2"
+	httpsecure "github.com/pucora/velonetics-httpsecure/v2"
 )
 
 func TestNewSecureMw(t *testing.T) {

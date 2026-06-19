@@ -3,11 +3,11 @@ package mux
 import (
 	"net/http"
 
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/router/mux"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/router/mux"
 	"github.com/unrolled/secure"
 
-	httpsecure "github.com/velonetics/velonetics-httpsecure/v2"
+	httpsecure "github.com/pucora/velonetics-httpsecure/v2"
 )
 
 // NewSecureMw creates a secured middleware for the mux engine

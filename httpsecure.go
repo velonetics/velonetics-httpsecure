@@ -1,12 +1,12 @@
 package httpsecure
 
 import (
-	"github.com/velonetics/lura/v2/config"
+	"github.com/pucora/lura/v2/config"
 	"github.com/unrolled/secure"
 )
 
 // Namespace is the key to use to store and access the custom config data
-const Namespace = "github_com/velonetics/velonetics-httpsecure"
+const Namespace = "github_com/pucora/velonetics-httpsecure"
 
 // ZeroCfg is the zero value for the Config struct.
 // Deprecated: the config getter does not return a ZeroCfg when no config available
